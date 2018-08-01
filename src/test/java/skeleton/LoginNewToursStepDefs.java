@@ -15,7 +15,7 @@ public class LoginNewToursStepDefs {
 	@Given("^User is on the login page of newtours$")
 	public void user_is_on_the_login_page_of_newtours() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	   System.setProperty("webdriver.chrome.driver","C:\\Users\\pdc4-training.pdc4\\eclipse-workspace\\SeleniumTest\\src\\test\\resources\\chromedriver.exe");
+	   System.setProperty("webdriver.chrome.driver","C:\\Users\\pdc4-training.pdc4\\chromedriver.exe");
 	   driver=new ChromeDriver();
 	   driver.get("http://newtours.demoaut.com/");
 	}
